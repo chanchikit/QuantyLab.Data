@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D26C11EB-6FF3-4C78-94DB-3D2527136936}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuantLab.DataManager.Check.Factor</RootNamespace>
+    <AssemblyName>QuantLab.DataManager.Check.Factor</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\..\..\新建文件夹\supwin 练习\QuantLab_test_1_3\QuantLab_test_1_3\bin\Debug\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Abstractions">
+      <HintPath>..\..\Fdata7thread\Fdata7thread\bin\Debug\System.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\类库\QuantLab.Data.DoFiliter\QuantLab.Data.DoFiliter.Library.csproj">
+      <Project>{8b1352c0-f7e6-43b4-8bd2-7158132fcdf0}</Project>
+      <Name>QuantLab.Data.DoFiliter.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\类库\QuantLab.Data.SeparateTime.Library\QuantLab.Data.SeparateTime.Library.csproj">
+      <Project>{bfdaa9d4-7554-4a8c-b5d6-af31ee4842f3}</Project>
+      <Name>QuantLab.Data.SeparateTime.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\类库\QuantLab.Data.TxtToList.Library\QuantLab.Data.TxtToList.Library.csproj">
+      <Project>{f3a5b1b2-020f-462e-bb53-96a843dfdb98}</Project>
+      <Name>QuantLab.Data.TxtToList.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuantLab.Data.ToCSV.Libaary\QuantLab.Data.ToCSV.Library.csproj">
+      <Project>{f50762ad-0495-40ee-b43b-64f484cacc96}</Project>
+      <Name>QuantLab.Data.ToCSV.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

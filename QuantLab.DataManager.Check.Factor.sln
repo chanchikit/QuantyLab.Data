@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantLab.DataManager.Check.Factor", "QuantLab.DataManager.Check.Factor\QuantLab.DataManager.Check.Factor.csproj", "{D26C11EB-6FF3-4C78-94DB-3D2527136936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantLab.Data.ToCSV.Library", "QuantLab.Data.ToCSV.Libaary\QuantLab.Data.ToCSV.Library.csproj", "{F50762AD-0495-40EE-B43B-64F484CACC96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantLab.Data.DoFiliter.Library", "..\类库\QuantLab.Data.DoFiliter\QuantLab.Data.DoFiliter.Library.csproj", "{8B1352C0-F7E6-43B4-8BD2-7158132FCDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantLab.Data.SeparateTime.Library", "..\类库\QuantLab.Data.SeparateTime.Library\QuantLab.Data.SeparateTime.Library.csproj", "{BFDAA9D4-7554-4A8C-B5D6-AF31EE4842F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantLab.Data.TxtToList.Library", "..\类库\QuantLab.Data.TxtToList.Library\QuantLab.Data.TxtToList.Library.csproj", "{F3A5B1B2-020F-462E-BB53-96A843DFDB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{78ADC385-FE18-4ADC-8215-C41A1D2FA127}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D26C11EB-6FF3-4C78-94DB-3D2527136936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26C11EB-6FF3-4C78-94DB-3D2527136936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26C11EB-6FF3-4C78-94DB-3D2527136936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26C11EB-6FF3-4C78-94DB-3D2527136936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50762AD-0495-40EE-B43B-64F484CACC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50762AD-0495-40EE-B43B-64F484CACC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50762AD-0495-40EE-B43B-64F484CACC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50762AD-0495-40EE-B43B-64F484CACC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1352C0-F7E6-43B4-8BD2-7158132FCDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1352C0-F7E6-43B4-8BD2-7158132FCDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1352C0-F7E6-43B4-8BD2-7158132FCDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1352C0-F7E6-43B4-8BD2-7158132FCDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDAA9D4-7554-4A8C-B5D6-AF31EE4842F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDAA9D4-7554-4A8C-B5D6-AF31EE4842F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDAA9D4-7554-4A8C-B5D6-AF31EE4842F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDAA9D4-7554-4A8C-B5D6-AF31EE4842F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A5B1B2-020F-462E-BB53-96A843DFDB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A5B1B2-020F-462E-BB53-96A843DFDB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A5B1B2-020F-462E-BB53-96A843DFDB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A5B1B2-020F-462E-BB53-96A843DFDB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78ADC385-FE18-4ADC-8215-C41A1D2FA127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78ADC385-FE18-4ADC-8215-C41A1D2FA127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78ADC385-FE18-4ADC-8215-C41A1D2FA127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78ADC385-FE18-4ADC-8215-C41A1D2FA127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
